@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinformatics 2025</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+        table {
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            table-layout: fixed;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            vertical-align: middle;
+            word-wrap: break-word;
+        }
+        th {
+            background: #333;
+            color: white;
+        }
+        .highlight {
+            font-weight: bold;
+            background: #ffeb3b;
+        }
+        .section-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+        .section-chemistry, .section-computer {
+            width: 100%;
+            padding: 10px 0;
+        }
+        .section-chemistry { background: #d1ecf1; }
+        .section-computer { background: #a2d5f2; }
+        .section-zoology { font-weight: bold; background: #ffffff; }
+        .section-empty { background: #f5deb3; }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            table {
+                font-size: 14px;
+            }
+            th, td {
+                padding: 10px;
+            }
+        }
+        @media screen and (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+            table {
+                width: 100%;
+                font-size: 12px;
+            }
+            th, td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Timetable Bioinformatics 2025</h1>
+    <h2>✨🌙Ramadan Mubarak🌙✨</h2>
+    
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>9-10</th>
+                <th>10-11</th>
+                <th>11-12</th>
+                <th>12-1</th>
+            </tr>
+            <tr>
+                <td><b>Saturday</b></td>
+                <td>History of Science</td>
+                <td>Physics Dr. Tareq</td>
+                <td>Section Physics</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td><b>Sunday</b></td>
+                <td>
+                    <div class="section-container">
+                        <div class="section-chemistry">Chemistry Section</div>
+                        <div class="section-computer">Computer Section</div>
+                    </div>
+                </td>
+                <td>Chemistry</td>
+                <td>
+                    <div class="section-container">
+                        <div class="section-computer">Computer Section</div>
+                        <div class="section-chemistry">Chemistry Section</div>
+                    </div>
+                </td>
+                <td>Computer</td>
+            </tr>
+            <tr>
+                <td><b>Monday</b></td>
+                <td colspan="4" class="section-zoology">Zoology Section Dr. Eman</td>
+            </tr>
+            <tr>
+                <td><b>Tuesday</b></td>
+                <td colspan="4" class="section-empty"></td>
+            </tr>
+            <tr>
+                <td><b>Wednesday</b></td>
+                <td colspan="4" class="section-empty"></td>
+            </tr>
+            <tr>
+                <td><b>Thursday</b></td>
+                <td>Zoology</td>
+                <td>Botany</td>
+                <td class="highlight">Botany Section 1</td>
+                <td class="highlight">Botany Section 2</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
